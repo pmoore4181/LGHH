@@ -89,6 +89,275 @@ h1 {
 .padding-0 {
 	padding-right: 0;
 	padding-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
 	
 }
+.containerp {
+	max-width: 660px;
+	width: 100%;
+	min-height:975px;
+	height:100%;
+	margin: 40px;
+	margin-left: 205px;
+	background: white;
+	float: left;
+	border: #dddddd; 
+
+	}
+	
+	
+	.image{
+		position: relative;
+	}
+	
+	#label{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#label1{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#label2{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#label3{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#label4{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	section {
+	display: inline-block;
+	padding:10px;
+	margin-bottom: 10px;			
+}
+
+#top1 {
+	float: left;
+	margin: 0;
+	margin-top:20px;
+	overflow: none;
+	padding: 0;
+	
+	
+
+}
+
+#top2 {
+	float: left;
+	margin: 0;
+	margin-top:20px;
+	overflow: none;
+	padding: 0;
+	
+}
+
+#top3 {
+	float: left;
+	margin: 0;
+	margin-top:20px;
+	overflow: none;
+	padding: 0;
+}
+	#top4 {
+	float: left;
+	margin: 0;
+	margin-top:20px;
+	overflow: none;
+	padding: 0;
+	
+}
+
+#labelm{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#labelm1{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#labelm2{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#labelm3{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#labelm4{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+
+#middle1 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+	
+	
+
+}
+
+#middle2 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+	
+}
+
+#middle3 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+}
+	#middle4 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+}
+	
+	#labelb{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#labelb1{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#labelb2{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+	#labelb3{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+	background: rgba(179,175,166,0.3);
+	}
+	#labelb4{
+		position: absolute;
+		margin-left: 0px;
+		margin-top: -50px;
+		padding: 8px 0px 8px 0px;
+		color: white;
+		width: 230px;
+		background: rgba(179,175,166,0.3);
+	}
+
+#bottom1 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+	
+	
+
+}
+
+#bottom2 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+	
+}
+
+#bottom3 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+}
+	#bottom4 {
+	float: left;
+	margin: 0;
+	margin-top:0;
+	overflow: none;
+	padding: 0;
+}
+	
 	
