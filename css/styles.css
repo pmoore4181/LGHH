@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+.searchResults {
+	clear: both;
+}
+
 video {
 	position: absolute;
 	top: 10%;
