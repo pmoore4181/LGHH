@@ -5,59 +5,26 @@
 	clear: both;
 }
 
+html,body {
+	background-color: black;
+}
 video {
 	position: absolute;
 	top: 10%;
 	
 	transform: translate(-50%,-50%);
-	min-width: 200%;
+	min-width: 182%;
 	min-height: 100%;
 	width: auto;
 	height: auto;
-	
-	
+
 }
 
-.jumbotron {
-    display: block;
-    width: 100%;
-    text-align: center;
-/*    background: url(../photos/happy-hour-banner.jpg)no-repeat center center scroll;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-	color: white;
-	height: 400px;
-	margin-top: -125px;
-
-	
-}
-.jumbotronShips {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background: url(../photos/ships.jpg)no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-	color: white;
-	margin-bottom: 0px;
-	margin-top: -55px;
-}
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
-.navigation {
-	margin-top: 15px;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-family: 'Playfair Display', serif;
-	position: absolute;
-	z-index: 1;
-}
+
 #h3Bottom {
 	margin-left: 20px;
 }
@@ -68,17 +35,18 @@ img {
 
 
 h1 {
-	position: relative;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 1;
+	position:relative;
+	top:205px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 8em;
+	
+	
 }
 
 .pictures {
 	margin-top: 255px;
-	padding-left: 88px;
+	padding-left: 135px;
 	width: 1508px;
 }
 
@@ -299,7 +267,7 @@ h1 {
 		padding: 8px 0px 8px 0px;
 		color: white;
 		width: 230px;
-		background: rgba(179,175,166,0.3);
+		background: rgba(31,30,27,0.3);
 	}
 	#labelb2{
 		position: absolute;
@@ -326,7 +294,7 @@ h1 {
 		padding: 8px 0px 8px 0px;
 		color: white;
 		width: 230px;
-		background: rgba(179,175,166,0.3);
+		background: rgba(31,30,27,0.3);
 	}
 
 #bottom1 {
