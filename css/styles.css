@@ -5,9 +5,11 @@
 	clear: both;
 }
 
-html,body {
-	background-color: black;
+
+#barSearchResults {
+	margin-top: 350px;
 }
+
 video {
 	position: absolute;
 	top: 10%;
