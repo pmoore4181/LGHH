@@ -38,7 +38,7 @@ img {
 
 h1 {
 	position:relative;
-	top:205px;
+	top:200px;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 	font-size: 8em;
@@ -53,7 +53,11 @@ h1 {
 }
 
 #logo {
-	margin-left: 500px;
+	position:relative;
+	top: 60px;
+	text-align: center;
+	margin-left: 180px;
+	
 }
 #week {
 	margin-left: 550px;
@@ -85,56 +89,9 @@ h1 {
 		position: relative;
 	}
 	
-	#label{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#label1{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#label2{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#label3{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#label4{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	section {
-	display: inline-block;
-	padding:10px;
-	margin-bottom: 10px;			
-}
+
+			
+
 
 #top1 {
 	float: left;
@@ -172,51 +129,7 @@ h1 {
 	
 }
 
-#labelm{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#labelm1{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#labelm2{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#labelm3{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#labelm4{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
+
 
 #middle1 {
 	float: left;
@@ -253,51 +166,7 @@ h1 {
 	padding: 0;
 }
 	
-	#labelb{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#labelb1{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(31,30,27,0.3);
-	}
-	#labelb2{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(179,175,166,0.3);
-	}
-	#labelb3{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-	background: rgba(179,175,166,0.3);
-	}
-	#labelb4{
-		position: absolute;
-		margin-left: 0px;
-		margin-top: -50px;
-		padding: 8px 0px 8px 0px;
-		color: white;
-		width: 230px;
-		background: rgba(31,30,27,0.3);
-	}
+	
 
 #bottom1 {
 	float: left;
