@@ -202,5 +202,12 @@ h1 {
 	overflow: none;
 	padding: 0;
 }
+
+ #map {
+    height: 700px;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
 	
 	
