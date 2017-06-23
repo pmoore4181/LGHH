@@ -151,11 +151,4 @@ $(".barPictures").on("click", function() {
 
 
 
-
-
-
-	  
-
-
-
 });

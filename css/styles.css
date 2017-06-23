@@ -3,7 +3,6 @@
 /* CSS Document */
 
 html, body {
-    /*background-color: rgb(247, 247, 232);*/
     background-color: rgb(247, 247, 247);
 }
 
@@ -18,10 +17,6 @@ html, body {
 
 .barPictures:hover {
     cursor: pointer;
-}
-
-.dayOfTheWeek {
-
 }
 
 .searchResults {
@@ -99,25 +94,6 @@ h1 {
     opacity: .75;
 }
 
-/*.padding-0 {
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-    padding-top: 0;
-}*/
-
-/*.containerp {
-    max-width: 660px;
-    width: 100%;
-    min-height: 975px;
-    height: 100%;
-    margin: 40px;
-    margin-left: 205px;
-    background: white;
-    float: left;
-    border: #dddddd;
-}
-*/
 .image {
     position: relative;
 }
