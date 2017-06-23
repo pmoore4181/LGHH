@@ -2,6 +2,28 @@
 
 /* CSS Document */
 
+html, body {
+    /*background-color: rgb(247, 247, 232);*/
+    background-color: rgb(247, 247, 247);
+}
+
+.barName {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#resultRow {
+    padding-bottom: 100px;
+}
+
+.barPictures:hover {
+    cursor: pointer;
+}
+
+.dayOfTheWeek {
+
+}
+
 .searchResults {
     clear: both;
 }
@@ -11,7 +33,12 @@
 }
 
 .three {
-	margin-left: 0px;
+    margin-left: 0px;
+}
+
+.resultPicture {
+    clear: both;
+    float: left;
 }
 
 video {
@@ -39,37 +66,47 @@ img {
 
 h1 {
     position: relative;
-    top: 200px;
+    top: 100px;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 8em;
 }
 
 .pictures {
-    margin-top: 255px;
-    padding-left: 135px;
-    width: 1508px;
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 1024px;
 }
 
 #logo {
     position: relative;
     top: 60px;
     text-align: center;
-    margin-left: 180px;
+    margin-left: 270px;
+    max-width: 940px;
 }
 
 #week {
-    margin-left: 550px;
+    margin-left: 620px;
+    margin-top: 50px;
 }
 
-.padding-0 {
+#menu1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(178, 178, 176);
+    border: none;
+    opacity: .75;
+}
+
+/*.padding-0 {
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 0;
     padding-top: 0;
-}
+}*/
 
-.containerp {
+/*.containerp {
     max-width: 660px;
     width: 100%;
     min-height: 975px;
@@ -80,7 +117,7 @@ h1 {
     float: left;
     border: #dddddd;
 }
-
+*/
 .image {
     position: relative;
 }
@@ -166,30 +203,6 @@ h1 {
 }
 
 #bottom3 {
-<<<<<<< HEAD
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
-}
-	#bottom4 {
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
-}
-
- #map {
-    height: 700px;
-    width: 700px;
-    margin: 0;
-    padding: 0;
-}
-	
-	
-=======
     float: left;
     margin: 0;
     margin-top: 0;
@@ -204,4 +217,15 @@ h1 {
     overflow: none;
     padding: 0;
 }
->>>>>>> 75c5e466f72780ab428f92a39f5e64f1c4248567
+
+#map {
+    height: 700px;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
