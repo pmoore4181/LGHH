@@ -47,7 +47,7 @@ $(".day").on("click", function(){
 	var searchDate = $(this).attr("value");
 
 	// replace old search and add day to top of section
-	$(".dayOfTheWeek").html("<h2>" + searchDate + " Happy Hours</h2>");
+	$(".dayOfTheWeek").html("<h2 id='dayHeader'>" + searchDate + " Happy Hours</h2>");
 	$("#resultRow").html("");
 
 	// search by day of the week
