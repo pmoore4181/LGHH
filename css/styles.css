@@ -1,194 +1,172 @@
 @charset "utf-8";
+
 /* CSS Document */
 
 .searchResults {
-	clear: both;
+    clear: both;
 }
 
-
 #barSearchResults {
-	margin-top: 350px;
+    margin-top: 350px;
+}
+
+.three {
+	margin-left: 0px;
 }
 
 video {
-	position: absolute;
-	top: 10%;
-	
-	transform: translate(-50%,-50%);
-	min-width: 182%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    min-width: 182%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 
-
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #h3Bottom {
-	margin-left: 20px;
-}
-img {
-	height: 450px;
-	width: 450px;
+    margin-left: 20px;
 }
 
+img {
+    height: 450px;
+    width: 450px;
+}
 
 h1 {
-	position:relative;
-	top:200px;
-	text-align: center;
-	font-family: 'Playfair Display', serif;
-	font-size: 8em;
-	
-	
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 8em;
 }
 
 .pictures {
-	margin-top: 255px;
-	padding-left: 135px;
-	width: 1508px;
+    margin-top: 255px;
+    padding-left: 135px;
+    width: 1508px;
 }
 
 #logo {
-	position:relative;
-	top: 60px;
-	text-align: center;
-	margin-left: 180px;
-	
+    position: relative;
+    top: 60px;
+    text-align: center;
+    margin-left: 180px;
 }
+
 #week {
-	margin-left: 550px;
-	
+    margin-left: 550px;
 }
 
 .padding-0 {
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 0;
-	padding-top: 0;
-	
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
+
 .containerp {
-	max-width: 660px;
-	width: 100%;
-	min-height:975px;
-	height:100%;
-	margin: 40px;
-	margin-left: 205px;
-	background: white;
-	float: left;
-	border: #dddddd; 
+    max-width: 660px;
+    width: 100%;
+    min-height: 975px;
+    height: 100%;
+    margin: 40px;
+    margin-left: 205px;
+    background: white;
+    float: left;
+    border: #dddddd;
+}
 
-	}
-	
-	
-	.image{
-		position: relative;
-	}
-	
-
-			
-
+.image {
+    position: relative;
+}
 
 #top1 {
-	float: left;
-	margin: 0;
-	margin-top:20px;
-	overflow: none;
-	padding: 0;
-	
-	
-
+    float: left;
+    margin: 0;
+    margin-top: 20px;
+    overflow: none;
+    padding: 0;
 }
 
 #top2 {
-	float: left;
-	margin: 0;
-	margin-top:20px;
-	overflow: none;
-	padding: 0;
-	
+    float: left;
+    margin: 0;
+    margin-top: 20px;
+    overflow: none;
+    padding: 0;
 }
 
 #top3 {
-	float: left;
-	margin: 0;
-	margin-top:20px;
-	overflow: none;
-	padding: 0;
-}
-	#top4 {
-	float: left;
-	margin: 0;
-	margin-top:20px;
-	overflow: none;
-	padding: 0;
-	
+    float: left;
+    margin: 0;
+    margin-top: 20px;
+    overflow: none;
+    padding: 0;
 }
 
-
+#top4 {
+    float: left;
+    margin: 0;
+    margin-top: 20px;
+    overflow: none;
+    padding: 0;
+}
 
 #middle1 {
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
-	
-	
-
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
 }
 
 #middle2 {
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
-	
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
 }
 
 #middle3 {
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
 }
-	#middle4 {
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
+
+#middle4 {
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
 }
-	
-	
 
 #bottom1 {
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
-	
-	
-
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
 }
 
 #bottom2 {
-	float: left;
-	margin: 0;
-	margin-top:0;
-	overflow: none;
-	padding: 0;
-	
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
 }
 
 #bottom3 {
+<<<<<<< HEAD
 	float: left;
 	margin: 0;
 	margin-top:0;
@@ -211,3 +189,19 @@ h1 {
 }
 	
 	
+=======
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
+}
+
+#bottom4 {
+    float: left;
+    margin: 0;
+    margin-top: 0;
+    overflow: none;
+    padding: 0;
+}
+>>>>>>> 75c5e466f72780ab428f92a39f5e64f1c4248567
