@@ -89,6 +89,10 @@ $(".day").on("click", function(){
 					    }(document, "script", "twitter-wjs"));
 					$(rightSideDiv).append(barArray[i].twitter);
 					$('#resultRow').append($(rightSideDiv));
+
+					$('html, body').animate({
+					    scrollTop: $("#dayHeader").offset().top
+					}, 1000);
 				}
 			} 
 		}
@@ -102,8 +106,9 @@ $(".day").on("click", function(){
 $(".barPictures").on("click", function() {
     var searchBar = $(this).attr("value");
 
-    $(".searchResults").html("<h3>" + searchBar + " Happy Hour</h3>");
     $("#resultRow").html("");
+
+
 
     for (i = 0; i < barArray.length; i++) {
         if (searchBar === barArray[i].barName) {
@@ -142,6 +147,10 @@ $(".barPictures").on("click", function() {
 					$(rightSideDiv).append(barArray[i].twitter);
 					$('#resultRow').append($(rightSideDiv));
 					$('#resultRow').append("<hr>");
+
+					$('html, body').animate({
+					    scrollTop: $("#dayHeader").offset().top
+					}, 1000);
 
 
         }

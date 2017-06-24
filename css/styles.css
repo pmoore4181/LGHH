@@ -6,10 +6,6 @@ html, body {
     background-color: rgb(247, 247, 247);
 }
 
-#videoBanner {
-    margin-top: -200px;
-}
-
 .day {
     cursor: pointer;
 }
@@ -21,7 +17,7 @@ html, body {
 }
 
 #barHeading {
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: -150px;
 }
 
