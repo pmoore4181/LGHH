@@ -16,6 +16,11 @@ html, body {
     margin-bottom: 20px;
 }
 
+#barHeading {
+    margin-top: 200px;
+    margin-bottom: -100px;
+}
+
 #hr {
     width: 205%;
     border: none;
