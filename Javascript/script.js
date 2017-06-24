@@ -91,7 +91,7 @@ $(".day").on("click", function(){
 					$('#resultRow').append($(rightSideDiv));
 
 					$('html, body').animate({
-					    scrollTop: $("#dayHeader").offset().top
+					    scrollTop: $("#barHeading").offset().top
 					}, 1000);
 				}
 			} 
@@ -107,6 +107,7 @@ $(".barPictures").on("click", function() {
     var searchBar = $(this).attr("value");
 
     $("#resultRow").html("");
+    $(".dayOfTheWeek").html("");
 
 
 
@@ -149,7 +150,7 @@ $(".barPictures").on("click", function() {
 					$('#resultRow').append("<hr>");
 
 					$('html, body').animate({
-					    scrollTop: $("#dayHeader").offset().top
+					    scrollTop: $("#barHeading").offset().top
 					}, 1000);
 
 
