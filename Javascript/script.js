@@ -15,7 +15,7 @@ function bar(barName, location, startTime, endTime, priceRange, daysWithSpecials
 
 var libertineBar = new bar ('Libertine', '2101 Greenville Ave', '5', '7', 'Moderate', ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'Restaurant', 'Full Bar', '<img class="barPicture" src="../corrected/libertineD.png" style="width:350px; height: 350px"/>', '<a class="twitter-timeline" href="https://twitter.com/libertinebar" data-tweet-limit="1"> Tweets by @libertinebar </a>');
 
-var truckYardBar = new bar ('Truck Yard', '5624 Sears St', '5', '7', 'Moderate', ['Monday', 'Wednesday', 'Friday'], 'outdoor', 'Full Bar', '<img class="barPicture" src="../corrected/Truck-Yard-in-Dallas_201240.png" style="width:350px; height: 350px"/>', '<a class="twitter-timeline" href="https://twitter.com/texastruckyard" data-tweet-limit="1"> Tweets by @texastruckyard </a>');
+var truckYardBar = new bar ('Truck Yard', '5624 Sears St', '5', '7', 'Moderate', ['Monday', 'Wednesday', 'Friday'], 'Outdoor', 'Full Bar', '<img class="barPicture" src="../corrected/Truck-Yard-in-Dallas_201240.png" style="width:350px; height: 350px"/>', '<a class="twitter-timeline" href="https://twitter.com/texastruckyard" data-tweet-limit="1"> Tweets by @texastruckyard </a>');
 
 var dallasBeerKitchenBar = new bar ('Dallas Beer Kitchen', '1802 Greenville Ave Ste 110', '5', '7', 'Cheap', ['Friday', 'Saturday'], 'Dive', 'Beer', '<img class="barPicture" src="../corrected/dallasBearKitchen.png" style="width:350px; height: 350px"/>', '<a class="twitter-timeline" href="https://twitter.com/FollowDBK" data-tweet-limit="1"> Tweets by @FollowDBK </a>');
 

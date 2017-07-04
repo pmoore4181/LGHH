@@ -39,6 +39,10 @@ html, body {
     padding-bottom: 100px;
 }
 
+.resultTwitter > * {
+    max-height: 530px;
+}
+
 .barPictures:hover {
     cursor: pointer;
 }
