@@ -4,18 +4,13 @@
   "description": "SMU Coding Camp - Group Project (Lower Greenville Happy Hour)",
   "main": "sample.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node sample.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JordanBA/LGHH.git"
+    "url": "https://github.com/JordanBA/LGHH.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JordanBA/LGHH/issues"
-  },
+  "license": "MIT",
   "homepage": "https://github.com/JordanBA/LGHH#readme",
   "dependencies": {
     "express": "^4.15.3"
