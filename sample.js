@@ -2,11 +2,12 @@ const express = require('express')
 const app = express();
 var path = require('path');
 
-app.use(express.static(__dirname + '/css')); // contains css
+app.use(express.static(path.join(__dirname, '/css'))); // contains css
 app.use(express.static(__dirname + '/photos')); // contains images
 app.use(express.static(__dirname + '/javascript')); // contains images
 app.use(express.static(__dirname + '/views')); //contains mainpage.html
 app.use(express.static(__dirname + '/bower_components')); // contains bootstrap stuff
+app.use('/javascript', express.static(__dirname + 'javascript'));
 
 app.set('port', (process.env.PORT || 5000));
 
