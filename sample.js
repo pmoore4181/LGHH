@@ -2,11 +2,11 @@ const express = require('express')
 const app = express();
 var path = require('path');
 
-app.use(express.static('css')); // contains css
-app.use(express.static('photos')); // contains images
-app.use(express.static('javascript')); // contains images
-app.use(express.static('views')); //contains mainpage.html
-app.use(express.static('bower_components')); // contains bootstrap stuff
+app.use(express.static(__dirname + '/css')); // contains css
+app.use(express.static(__dirname + '/photos')); // contains images
+app.use(express.static(__dirname + '/javascript')); // contains images
+app.use(express.static(__dirname + '/views')); //contains mainpage.html
+app.use(express.static(__dirname + '/bower_components')); // contains bootstrap stuff
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -14,7 +14,6 @@ app.set('port', (process.env.PORT || 5000));
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
-app.set('js', __dirname + '/javascript');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
