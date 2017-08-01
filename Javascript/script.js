@@ -70,34 +70,41 @@ $(".day").on("click", function(){
 					$(newDiv).append("<br><br><hr id='hr'>");
 					$('#resultRow').append(newDiv);
 
-					//Inserting Twitter API
-					window.twttr = (function(d, s, id) {
-					    var js, fjs = d.getElementsByTagName(s)[0],
-					    t = window.twttr || {};
-					    if (d.getElementById(id)) return t;
-					    js = d.createElement(s);
-					    js.id = id;
-					   js.src = "https://platform.twitter.com/widgets.js";
-					    fjs.parentNode.insertBefore(js, fjs);
+					// //Inserting Twitter API
+					// window.twttr = (function(d, s, id) {
+					//     var js, fjs = d.getElementsByTagName(s)[0],
+					//     t = window.twttr || {};
+					//     if (d.getElementById(id)) return t;
+					//     js = d.createElement(s);
+					//     js.id = id;
+					//    js.src = "https://platform.twitter.com/widgets.js";
+					//     fjs.parentNode.insertBefore(js, fjs);
 
-					    t._e = [];
-					    t.ready = function(f) {
-					    t._e.push(f);
-					    };
+					//     t._e = [];
+					//     t.ready = function(f) {
+					//     t._e.push(f);
+					//     };
 
-					    return t;
-					    }(document, "script", "twitter-wjs"));
+					//     return t;
+					//     }(document, "script", "twitter-wjs"));
+
+					var tweets = <a class="twitter-timeline" href="https://twitter.com/twittername" data-tweet-limit="1">
+					Tweets by @twittername</a>
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 					$(rightSideDiv).append(barArray[i].twitter);
 					$('#resultRow').append($(rightSideDiv));
 
-					$('html, body').animate({
-					    scrollTop: $("#barHeading").offset().top
-					}, 1000);
+
 				}
 			} 
 		}
 	}
 	checkDaysWithSpecials();
+	$('html, body').animate({
+	    scrollTop: $("#barHeading").offset().top
+	}, 500);
 })
 
 

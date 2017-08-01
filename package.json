@@ -2,9 +2,9 @@
   "name": "lghh",
   "version": "1.0.0",
   "description": "SMU Coding Camp - Group Project (Lower Greenville Happy Hour)",
-  "main": "sample.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node sample.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
