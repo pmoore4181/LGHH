@@ -160,13 +160,12 @@ $(document).ready(function() {
                 $('#resultRow').append($(rightSideDiv));
                 $('#resultRow').append("<hr>");
 
-                $('html, body').animate({
-                    scrollTop: $("#barHeading").offset().top
-                }, 1000);
-
 
             }
         }
+        $('html, body').animate({
+            scrollTop: $("#barHeading").offset().top
+        }, 1000);
     });
 
 
