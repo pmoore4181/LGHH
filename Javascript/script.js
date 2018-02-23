@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+    window.twttr = (function() {
+                  twttr.widgets.createTweet(
+                    '967078764734763009',
+                    document.getElementByClass('resultRow'),
+                    {
+                      theme: 'dark'
+                    }
+                  );
+                });
+
     function bar(barName, location, startTime, endTime, priceRange, daysWithSpecials, genre, drinkType, picture, twitter) {
         this.barName = barName,
             this.location = location,
@@ -13,7 +23,7 @@ $(document).ready(function() {
             this.twitter = twitter
     }
 
-    var libertineBar = new bar('Libertine', '2101 Greenville Ave', '5', '7', 'Moderate', ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'Restaurant', 'Full Bar', '<img class="barPicture" src="../corrected/libertineD.png" style="width:350px; height: 350px"/>', '<a class="twitter-timeline" href="https://twitter.com/libertinebar" data-tweet-limit="1"> Tweets by @libertinebar </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>');
+    var libertineBar = new bar('Libertine', '2101 Greenville Ave', '5', '7', 'Moderate', ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'Restaurant', 'Full Bar', '<img class="barPicture" src="../corrected/libertineD.png" style="width:350px; height: 350px"/>', '<script type=”text/javascript” src=”http://twitter.com/javascripts/blogger.js”></script><script type=”text/javascript” src=”http://twitter.com/statuses/user_timeline/libertinebar.json?callback=twitterCallback2&count=1″></script>');
 
     
 
@@ -75,23 +85,23 @@ $(document).ready(function() {
                         $(newDiv).append("<br><br><hr id='hr'>");
                         $('#resultRow').append(newDiv);
 
-                        //Inserting Twitter API
-                        window.twttr = (function(d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                            t = window.twttr || {};
-                            if (d.getElementById(id)) return t;
-                            js = d.createElement(s);
-                            js.id = id;
-                           js.src = "https://platform.twitter.com/widgets.js";
-                            fjs.parentNode.insertBefore(js, fjs);
+                        // //Inserting Twitter API
+                        // window.twttr = (function(d, s, id) {
+                        //     var js, fjs = d.getElementsByTagName(s)[0],
+                        //     t = window.twttr || {};
+                        //     if (d.getElementById(id)) return t;
+                        //     js = d.createElement(s);
+                        //     js.id = id;
+                        //    js.src = "https://platform.twitter.com/widgets.js";
+                        //     fjs.parentNode.insertBefore(js, fjs);
 
-                            t._e = [];
-                            t.ready = function(f) {
-                            t._e.push(f);
-                            };
+                        //     t._e = [];
+                        //     t.ready = function(f) {
+                        //     t._e.push(f);
+                        //     };
 
-                            return t;
-                            }(document, "script", "twitter-wjs"));
+                        //     return t;
+                        //     }(document, "script", "twitter-wjs"));
 
                         var tweets = '<a class="twitter-timeline" href="https://twitter.com/twittername" data-tweet-limit = "1"> Tweets by @twittername </a> <script async src="//platform.twitter.com/widgets.js"charset = "utf-8" > </script>';
 
@@ -110,6 +120,13 @@ $(document).ready(function() {
         }
 
     })
+
+
+    // <blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr"><a href="https://t.co/hW47shNnla">https://t.co/hW47shNnla</a></p>&mdash; The Libertine Bar (@libertinebar) <a href="https://twitter.com/libertinebar/status/966765388255068162?ref_src=twsrc%5Etfw">February 22, 2018</a></blockquote>
+    // <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    // <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">TX Beer &amp; Wine Wednesdays! ALL NIGHT from 4pm! $3 select TX beers on tap, bottle or can and 1/2 price Times Ten... <a href="https://t.co/5KkJou9dgs">https://t.co/5KkJou9dgs</a></p>&mdash; The Libertine Bar (@libertinebar) <a href="https://twitter.com/libertinebar/status/966404518652076032?ref_src=twsrc%5Etfw">February 21, 2018</a></blockquote>
+    // <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
@@ -139,26 +156,53 @@ $(document).ready(function() {
                 $(newDiv).append("<br><br>");
                 $('#resultRow').append(newDiv);
 
-                //Inserting Twitter API
-                window.twttr = (function(d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0],
-                        t = window.twttr || {};
-                    if (d.getElementById(id)) return t;
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = "https://platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
+// ++++++++++++++++++ OLD TWITTER FEED CODE ++++++++++++++++++++
+                // //Inserting Twitter API
+                // window.twttr = (function(d, s, id) {
+                //     var js, fjs = d.getElementsByTagName(s)[0],
+                //         t = window.twttr || {};
+                //     if (d.getElementById(id)) return t;
+                //     js = d.createElement(s);
+                //     js.id = id;
+                //     js.src = "https://platform.twitter.com/widgets.js";
+                //     fjs.parentNode.insertBefore(js, fjs);
 
-                    t._e = [];
-                    t.ready = function(f) {
-                        t._e.push(f);
-                    };
+                //     t._e = [];
+                //     t.ready = function(f) {
+                //         t._e.push(f);
+                //     };
 
-                    return t;
-                }(document, "script", "twitter-wjs"));
-                $(rightSideDiv).append(barArray[i].twitter);
+                //     return t;
+                // }(document, "script", "twitter-wjs"));
+
+// +++++++++++++++++++ NEW TWITTER FEED CODE +++++++++++++++++++
+                window.twttr = (function() {
+                  twttr.widgets.createTweet(
+                    '967078764734763009',
+                    document.getElementByClass('resultTwitter'),
+                    {
+                      theme: 'dark'
+                    }
+                  );
+                  $(rightSideDiv).append(twttr);
+                });
+
+
+
+
+
+                // display results
+                $(rightSideDiv).append(window.twttr);
                 $('#resultRow').append($(rightSideDiv));
                 $('#resultRow').append("<hr>");
+
+
+
+
+                // <a class="twitter-timeline"  href="https://twitter.com/search?q=%40libertinebar" data-widget-id="967078764734763009" tweet-limit="1">Tweets about @libertinebar</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                
+
+
 
 
             }
