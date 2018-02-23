@@ -4,7 +4,7 @@ var path = require('path');
 
 app.use(express.static(path.join(__dirname, '/css'))); // contains css
 app.use(express.static(__dirname + '/photos')); // contains images
-app.use(express.static(__dirname + '/javascript')); // contains js
+app.use(express.static(__dirname + '/Javascript')); // contains js
 app.use(express.static(__dirname + '/views')); //contains mainpage.html
 app.use(express.static(__dirname + '/bower_components')); // contains bootstrap stuff
 
