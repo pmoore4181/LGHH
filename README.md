@@ -1,4 +1,4 @@
-# LGHH
+# Lower Greenville Happy Hour
 Looking for a happy hour drink but don't know where to go? Just select which day you plan on going out and LGHH will alert you to options and deals in your area.
 
 <img width="1407" alt="Select A Day for Happy Hour" src="https://user-images.githubusercontent.com/23281670/38099303-e01da7ee-333f-11e8-8c0c-272a74047fe1.png">
